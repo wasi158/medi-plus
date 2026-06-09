@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", "Inter", sans-serif;
+
+  /* Pharmly-inspired theme: dark teal + lime accent */
+  --color-primary: #002B2B;
+  --color-primary-container: #D4FF3F;
+  --color-primary-fixed: #E8FFB8;
+  --color-primary-fixed-dim: #B8E62E;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #002B2B;
+
+  --color-secondary: #003D3D;
+  --color-secondary-container: #E8F0F0;
+  --color-on-secondary: #ffffff;
+
+  --color-background: #F8F9FA;
+  --color-surface: #F8F9FA;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #F0F4F4;
+  --color-surface-container: #E8EDED;
+  --color-surface-container-high: #DDE5E5;
+  --color-surface-container-highest: #D0DADA;
+  --color-on-surface: #1A1A1A;
+  --color-on-surface-variant: #4A5568;
+  --color-outline: #718096;
+  --color-outline-variant: #CBD5E0;
+
+  --color-success: #E6FFFA;
+  --color-on-success: #065F46;
+  --color-warning: #FFFBEB;
+  --color-on-warning: #C05621;
+  --color-error: #E53E3E;
+  --color-error-container: #FFF5F5;
+  --color-on-error-container: #C53030;
+
+  --shadow-primary: 0 4px 12px rgba(0, 43, 43, 0.06);
+  --shadow-primary-lg: 0 12px 24px rgba(0, 43, 43, 0.1);
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: var(--font-sans);
+  color: var(--color-on-surface);
+}

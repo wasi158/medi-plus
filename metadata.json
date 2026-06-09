@@ -1,0 +1,6 @@
+{
+  "name": "HealPortal",
+  "description": "A comprehensive patient medical portal and specialist booking platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
